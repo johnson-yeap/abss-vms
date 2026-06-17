@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|authimg\.php|authimg_big\.php|application|ueditor|lib|themes|upload|robots\.txt)
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+
